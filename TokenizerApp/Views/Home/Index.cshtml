@@ -1,0 +1,29 @@
+﻿@model TokenizerApp.Models.TokenRequest
+@{
+    ViewData["Title"] = "Tokenizer";
+}
+
+<h2>Tokenize Text</h2>
+
+<form asp-action="Index" method="post">
+    <textarea asp-for="Text" rows="4" cols="50"></textarea><br />
+    <label>Model:</label>
+    <select asp-for="Model">
+        <option>bert</option>
+        <option>roberta</option>
+        <option>gpt2</option>
+    </select><br />
+    <button type="submit">Tokenize</button>
+</form>
+
+@if (ViewBag.Tokens != null)
+{
+    <h3>Tokens:</h3>
+    <ul>
+    @foreach (var token in ViewBag.Tokens as List<string>)
+    {
+        <li>@token</li>
+    }
+    </ul>
+}
+
