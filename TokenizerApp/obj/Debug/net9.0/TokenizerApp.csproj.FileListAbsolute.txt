@@ -86,7 +86,6 @@ C:\Users\Julia\Desktop\SEM 6\Tokenization-Visualizer\TokenizerApp\obj\Debug\net9
 C:\Users\Julia\Desktop\SEM 6\Tokenization-Visualizer\TokenizerApp\obj\Debug\net9.0\staticwebassets.build.json.cache
 C:\Users\Julia\Desktop\SEM 6\Tokenization-Visualizer\TokenizerApp\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\Julia\Desktop\SEM 6\Tokenization-Visualizer\TokenizerApp\obj\Debug\net9.0\staticwebassets.build.endpoints.json
-C:\Users\Julia\Desktop\SEM 6\Tokenization-Visualizer\TokenizerApp\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\Julia\Desktop\SEM 6\Tokenization-Visualizer\TokenizerApp\obj\Debug\net9.0\TokenizerApp.dll
 C:\Users\Julia\Desktop\SEM 6\Tokenization-Visualizer\TokenizerApp\obj\Debug\net9.0\refint\TokenizerApp.dll
 C:\Users\Julia\Desktop\SEM 6\Tokenization-Visualizer\TokenizerApp\obj\Debug\net9.0\TokenizerApp.pdb

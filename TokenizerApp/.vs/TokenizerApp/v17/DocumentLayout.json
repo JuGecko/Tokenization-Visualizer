@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp\\TokenizerApp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TokenizerApp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp\\TokenizerApp.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TokenizerApp.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp\\Models\\TokenRequest.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -35,6 +39,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "TokenizerApp.csproj.user",
+              "DocumentMoniker": "C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp\\TokenizerApp.csproj.user",
+              "RelativeDocumentMoniker": "TokenizerApp.csproj.user",
+              "ToolTip": "C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp\\TokenizerApp.csproj.user",
+              "RelativeToolTip": "TokenizerApp.csproj.user",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
+              "WhenOpened": "2025-05-27T19:46:57.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "TokenizerApp.csproj",
               "DocumentMoniker": "C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp\\TokenizerApp.csproj",
               "RelativeDocumentMoniker": "TokenizerApp.csproj",
@@ -47,7 +64,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -60,7 +77,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -72,7 +89,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -84,7 +101,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "TokenRequest.cs",
               "DocumentMoniker": "C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp\\Models\\TokenRequest.cs",
               "RelativeDocumentMoniker": "Models\\TokenRequest.cs",
