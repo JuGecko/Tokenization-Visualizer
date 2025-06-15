@@ -27,15 +27,17 @@ tokenizers = {
 }
 
 class TokenRequest(BaseModel):
-    text: str
-    model: str  # e.g., "bert", "roberta", "gpt2"
+    Text: str
+    Model: str  # e.g., "bert", "roberta", "gpt2"
 
 @app.post("/tokenize")
 def tokenize(req: TokenRequest):
-    model = req.model.lower()
+    model = req.Model.lower()
     if model not in tokenizers:
         return {"error": "Unsupported model. Choose from: bert, roberta, gpt2"}
 
     tokenizer = tokenizers[model]
-    tokens = tokenizer.tokenize(req.text)
-    return {"tokens": tokens}
+    tokens = tokenizer.tokenize(req.Text)
+    # Ensure tokens are strings and use the correct property name
+    tokens_list = [str(token) for token in tokens]
+    return {"Tokens": tokens_list}

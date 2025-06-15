@@ -1,9 +1,28 @@
+using Microsoft.AspNetCore.Mvc;
+using TokenizerApp.Models;
+using System.Text;
+using System.Text.Json;
+using Microsoft.Extensions.DependencyInjection; // Add this using directive
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+// --- Add this line to register HttpClient with IHttpClientFactory ---
 builder.Services.AddHttpClient();
+// You can also configure a named client or a typed client here if needed for more complex scenarios.
+// For example:
+// builder.Services.AddHttpClient("MyApi", client =>
+// {
+//     client.BaseAddress = new Uri("http://localhost:8000/");
+// });
+// Or a typed client:
+// builder.Services.AddHttpClient<MyApiClient>(client =>
+// {
+//     client.BaseAddress = new Uri("http://localhost:8000/");
+// });
+
 
 var app = builder.Build();
 
@@ -16,16 +35,14 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseStaticFiles();
+
 app.UseRouting();
 
 app.UseAuthorization();
 
-app.MapStaticAssets();
-
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}")
-    .WithStaticAssets();
-
+    pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
