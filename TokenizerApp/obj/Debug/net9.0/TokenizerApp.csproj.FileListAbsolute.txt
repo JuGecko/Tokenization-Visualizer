@@ -1,12 +1,14 @@
-C:\Users\Julia\Desktop\SEM 6\Tokenization-Visualizer\TokenizerApp\bin\Debug\net9.0\TokenizerApp.exe
-C:\Users\Julia\Desktop\SEM 6\Tokenization-Visualizer\TokenizerApp\bin\Debug\net9.0\TokenizerApp.dll
 C:\Users\Julia\Desktop\SEM 6\Tokenization-Visualizer\TokenizerApp\bin\Debug\net9.0\appsettings.Development.json
 C:\Users\Julia\Desktop\SEM 6\Tokenization-Visualizer\TokenizerApp\bin\Debug\net9.0\appsettings.json
 C:\Users\Julia\Desktop\SEM 6\Tokenization-Visualizer\TokenizerApp\bin\Debug\net9.0\TokenizerApp.staticwebassets.runtime.json
 C:\Users\Julia\Desktop\SEM 6\Tokenization-Visualizer\TokenizerApp\bin\Debug\net9.0\TokenizerApp.staticwebassets.endpoints.json
+C:\Users\Julia\Desktop\SEM 6\Tokenization-Visualizer\TokenizerApp\bin\Debug\net9.0\TokenizerApp.exe
 C:\Users\Julia\Desktop\SEM 6\Tokenization-Visualizer\TokenizerApp\bin\Debug\net9.0\TokenizerApp.deps.json
 C:\Users\Julia\Desktop\SEM 6\Tokenization-Visualizer\TokenizerApp\bin\Debug\net9.0\TokenizerApp.runtimeconfig.json
+C:\Users\Julia\Desktop\SEM 6\Tokenization-Visualizer\TokenizerApp\bin\Debug\net9.0\TokenizerApp.dll
 C:\Users\Julia\Desktop\SEM 6\Tokenization-Visualizer\TokenizerApp\bin\Debug\net9.0\TokenizerApp.pdb
+C:\Users\Julia\Desktop\SEM 6\Tokenization-Visualizer\TokenizerApp\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\Julia\Desktop\SEM 6\Tokenization-Visualizer\TokenizerApp\obj\Debug\net9.0\TokenizerApp.csproj.AssemblyReference.cache
 C:\Users\Julia\Desktop\SEM 6\Tokenization-Visualizer\TokenizerApp\obj\Debug\net9.0\TokenizerApp.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Julia\Desktop\SEM 6\Tokenization-Visualizer\TokenizerApp\obj\Debug\net9.0\TokenizerApp.AssemblyInfoInputs.cache
 C:\Users\Julia\Desktop\SEM 6\Tokenization-Visualizer\TokenizerApp\obj\Debug\net9.0\TokenizerApp.AssemblyInfo.cs
@@ -18,7 +20,7 @@ C:\Users\Julia\Desktop\SEM 6\Tokenization-Visualizer\TokenizerApp\obj\Debug\net9
 C:\Users\Julia\Desktop\SEM 6\Tokenization-Visualizer\TokenizerApp\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Julia\Desktop\SEM 6\Tokenization-Visualizer\TokenizerApp\obj\Debug\net9.0\scopedcss\bundle\TokenizerApp.styles.css
 C:\Users\Julia\Desktop\SEM 6\Tokenization-Visualizer\TokenizerApp\obj\Debug\net9.0\scopedcss\projectbundle\TokenizerApp.bundle.scp.css
-C:\Users\Julia\Desktop\SEM 6\Tokenization-Visualizer\TokenizerApp\obj\Debug\net9.0\compressed\sbhl3f0n0n-b9sayid5wm.gz
+C:\Users\Julia\Desktop\SEM 6\Tokenization-Visualizer\TokenizerApp\obj\Debug\net9.0\compressed\sbhl3f0n0n-f384gu7e2s.gz
 C:\Users\Julia\Desktop\SEM 6\Tokenization-Visualizer\TokenizerApp\obj\Debug\net9.0\compressed\o49h5ko7nv-61n19gt1b8.gz
 C:\Users\Julia\Desktop\SEM 6\Tokenization-Visualizer\TokenizerApp\obj\Debug\net9.0\compressed\xhwscu1ou6-xtxxf3hu2r.gz
 C:\Users\Julia\Desktop\SEM 6\Tokenization-Visualizer\TokenizerApp\obj\Debug\net9.0\compressed\4rqhwokve1-bqjiyaj88i.gz
@@ -86,6 +88,7 @@ C:\Users\Julia\Desktop\SEM 6\Tokenization-Visualizer\TokenizerApp\obj\Debug\net9
 C:\Users\Julia\Desktop\SEM 6\Tokenization-Visualizer\TokenizerApp\obj\Debug\net9.0\staticwebassets.build.json.cache
 C:\Users\Julia\Desktop\SEM 6\Tokenization-Visualizer\TokenizerApp\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\Julia\Desktop\SEM 6\Tokenization-Visualizer\TokenizerApp\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\Julia\Desktop\SEM 6\Tokenization-Visualizer\TokenizerApp\obj\Debug\net9.0\Tokenize.D3E2402F.Up2Date
 C:\Users\Julia\Desktop\SEM 6\Tokenization-Visualizer\TokenizerApp\obj\Debug\net9.0\TokenizerApp.dll
 C:\Users\Julia\Desktop\SEM 6\Tokenization-Visualizer\TokenizerApp\obj\Debug\net9.0\refint\TokenizerApp.dll
 C:\Users\Julia\Desktop\SEM 6\Tokenization-Visualizer\TokenizerApp\obj\Debug\net9.0\TokenizerApp.pdb

@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TokenizerApp\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp.Tests\\TokenizerApp.Tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TokenizerApp.Tests\\TokenizerApp.Tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TokenizerApp\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp\\TokenizerApp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TokenizerApp\\TokenizerApp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp.Tests\\TokenResponseTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TokenizerApp.Tests\\TokenResponseTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp.Tests\\TokenRequestTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TokenizerApp.Tests\\TokenRequestTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp.Tests\\ErrorViewModelTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TokenizerApp.Tests\\ErrorViewModelTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp.Tests\\HomeControllerTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TokenizerApp.Tests\\HomeControllerTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,7 +33,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 331,
+          "DockedHeight": 342,
           "SelectedChildIndex": 2,
           "Children": [
             {
@@ -27,38 +43,85 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "TokenizerApp\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "TokenizerApp\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T19:02:39.031Z",
-              "EditorCaption": ""
+              "Title": "TokenizerApp.csproj",
+              "DocumentMoniker": "C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp\\TokenizerApp.csproj",
+              "RelativeDocumentMoniker": "TokenizerApp\\TokenizerApp.csproj",
+              "ToolTip": "C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp\\TokenizerApp.csproj",
+              "RelativeToolTip": "TokenizerApp\\TokenizerApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-16T10:10:00.284Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp\\Program.cs",
-              "RelativeDocumentMoniker": "TokenizerApp\\Program.cs",
-              "ToolTip": "C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp\\Program.cs",
-              "RelativeToolTip": "TokenizerApp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T18:58:49.644Z",
+              "Title": "TokenizerApp.Tests.csproj",
+              "DocumentMoniker": "C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp.Tests\\TokenizerApp.Tests.csproj",
+              "RelativeDocumentMoniker": "TokenizerApp.Tests\\TokenizerApp.Tests.csproj",
+              "ToolTip": "C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp.Tests\\TokenizerApp.Tests.csproj",
+              "RelativeToolTip": "TokenizerApp.Tests\\TokenizerApp.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-16T10:10:16.529Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TokenResponseTest.cs",
+              "DocumentMoniker": "C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp.Tests\\TokenResponseTest.cs",
+              "RelativeDocumentMoniker": "TokenizerApp.Tests\\TokenResponseTest.cs",
+              "ToolTip": "C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp.Tests\\TokenResponseTest.cs",
+              "RelativeToolTip": "TokenizerApp.Tests\\TokenResponseTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T10:05:10.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TokenRequestTest.cs",
+              "DocumentMoniker": "C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp.Tests\\TokenRequestTest.cs",
+              "RelativeDocumentMoniker": "TokenizerApp.Tests\\TokenRequestTest.cs",
+              "ToolTip": "C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp.Tests\\TokenRequestTest.cs",
+              "RelativeToolTip": "TokenizerApp.Tests\\TokenRequestTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T10:05:09.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeControllerTest.cs",
+              "DocumentMoniker": "C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp.Tests\\HomeControllerTest.cs",
+              "RelativeDocumentMoniker": "TokenizerApp.Tests\\HomeControllerTest.cs",
+              "ToolTip": "C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp.Tests\\HomeControllerTest.cs",
+              "RelativeToolTip": "TokenizerApp.Tests\\HomeControllerTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T10:05:08.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ErrorViewModelTest.cs",
+              "DocumentMoniker": "C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp.Tests\\ErrorViewModelTest.cs",
+              "RelativeDocumentMoniker": "TokenizerApp.Tests\\ErrorViewModelTest.cs",
+              "ToolTip": "C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp.Tests\\ErrorViewModelTest.cs",
+              "RelativeToolTip": "TokenizerApp.Tests\\ErrorViewModelTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T10:05:08.28Z"
             }
           ]
         },
         {
-          "DockedHeight": 219,
+          "DockedHeight": 312,
           "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:12:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+              "Name": "ST:16:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
             }
           ]
         }
