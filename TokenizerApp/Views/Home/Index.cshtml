@@ -3,7 +3,7 @@
     ViewData["Title"] = "Wizualizator Tokenizacji";
 }
 
-<h2>Tokenize Text</h2>
+<h2>Tokenizuj tekst</h2>
 
 <form asp-action="Index" method="post">
     <div class="mb-3">
@@ -20,14 +20,14 @@
                 <option>T5</option>
             </select>
         </div>
-        <button type="submit" class="btn btn-primary">Tokenize</button>
+        <button type="submit" class="btn btn-primary">Tokenizuj</button>
     </div>
 </form>
 
 <div class="tokenizer-result">
     @if (ViewBag.Tokens != null)
     {
-    <label>Tokens:</label>
+    <label>Tokeny:</label>
     <div class="tokens-list">
         @foreach (var token in ViewBag.Tokens as List<string>)
             {

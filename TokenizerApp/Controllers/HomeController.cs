@@ -15,6 +15,11 @@ public class HomeController : Controller
         _httpClientFactory = httpClientFactory;
     }
 
+    public IActionResult AboutTokenization()
+    {
+        return View();
+    }
+
     [HttpGet]
     public IActionResult Index() => View();
 

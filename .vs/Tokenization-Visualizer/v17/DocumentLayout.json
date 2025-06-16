@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TokenizerApp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp\\Views\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TokenizerApp\\Views\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp\\Views\\Home\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TokenizerApp\\Views\\Home\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TokenizerApp\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp\\Views\\Home\\AboutTokenization.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TokenizerApp\\Views\\Home\\AboutTokenization.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp\\Models\\TokenRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TokenizerApp\\Models\\TokenRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TokenizerApp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -45,6 +61,62 @@
               "Name": "ST:21:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:22:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "TokenizerApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "TokenizerApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAIwC8AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T21:20:33.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TokenRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp\\Models\\TokenRequest.cs",
+              "RelativeDocumentMoniker": "TokenizerApp\\Models\\TokenRequest.cs",
+              "ToolTip": "C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp\\Models\\TokenRequest.cs",
+              "RelativeToolTip": "TokenizerApp\\Models\\TokenRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T21:20:33.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AboutTokenization.cshtml",
+              "DocumentMoniker": "C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp\\Views\\Home\\AboutTokenization.cshtml",
+              "RelativeDocumentMoniker": "TokenizerApp\\Views\\Home\\AboutTokenization.cshtml",
+              "ToolTip": "C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp\\Views\\Home\\AboutTokenization.cshtml",
+              "RelativeToolTip": "TokenizerApp\\Views\\Home\\AboutTokenization.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T21:18:19.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "TokenizerApp\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "TokenizerApp\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T21:16:44.68Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Index.cshtml",
@@ -52,20 +124,20 @@
               "RelativeDocumentMoniker": "TokenizerApp\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "TokenizerApp\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-16T20:58:58.902Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "TokenizerApp\\wwwroot\\css\\site.css",
               "ToolTip": "C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp\\wwwroot\\css\\site.css",
               "RelativeToolTip": "TokenizerApp\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAADMAAAAAAAAAAAAQwD8AAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-06-16T20:47:49.076Z",
               "EditorCaption": ""
