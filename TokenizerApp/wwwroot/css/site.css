@@ -29,3 +29,49 @@ body {
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
 }
+
+:root {
+    --grapefruit-light: #F7F3E5;
+    --background-light: var(--grapefruit-light);
+    --background-dark: #3B3A36;
+    --text-light: #222;
+    --text-dark: #f5f5f5;
+}
+
+body {
+    background: var(--background-light);
+    color: var(--text-light);
+    transition: background 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+    background: var(--background-dark);
+    color: var(--text-dark);
+}
+
+.tokenizer-form-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: flex-end;
+    margin-bottom: 2rem;
+}
+
+.tokenizer-result { 
+    margin-top: 2.5rem;
+}
+
+.tokens-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    margin-top: 0.5rem;
+}
+
+.token-item {
+    padding: 0.2rem 0.5rem;
+    background: rgba(0,0,0,0.03);
+    border-radius: 0.3rem;
+    display: inline-block;
+    font-family: monospace;
+}

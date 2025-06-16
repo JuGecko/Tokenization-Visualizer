@@ -2,13 +2,14 @@
   "ExpandedNodes": [
     "",
     "\\TokenizerApp",
-    "\\TokenizerApp.Tests",
     "\\TokenizerApp\\Controllers",
     "\\TokenizerApp\\Models",
     "\\TokenizerApp\\Views",
     "\\TokenizerApp\\Views\\Home",
-    "\\TokenizerApp\\wwwroot"
+    "\\TokenizerApp\\Views\\Shared",
+    "\\TokenizerApp\\wwwroot",
+    "\\TokenizerApp\\wwwroot\\css"
   ],
-  "SelectedNode": "\\TokenizerApp",
+  "SelectedNode": "\\TokenizerApp\\Views\\Shared\\_Layout.cshtml",
   "PreviewInSolutionExplorer": false
 }

@@ -8,7 +8,8 @@ tokenizers = {
     "bert": AutoTokenizer.from_pretrained("bert-base-uncased"),
     "roberta": AutoTokenizer.from_pretrained("roberta-base"),
     "gpt2": AutoTokenizer.from_pretrained("gpt2"),
-    "llama": AutoTokenizer.from_pretrained("huggyllama/llama-7b"),
+    "llama": AutoTokenizer.from_pretrained("huggyllama/llama-30b"),
+    "t5": AutoTokenizer.from_pretrained("google/t5-v1_1-xl"),
 }
 
 class TokenRequest(BaseModel):
@@ -19,7 +20,7 @@ class TokenRequest(BaseModel):
 def tokenize(req: TokenRequest):
     model = req.Model.lower()
     if model not in tokenizers:
-        return {"error": "Unsupported model. Choose from the ones in the dropdown"}
+        return {"Error": "Nieznay model. Wybierz jeden z listy dostępnych modeli."}
 
     tokenizer = tokenizers[model]
     tokens = tokenizer.tokenize(req.Text)

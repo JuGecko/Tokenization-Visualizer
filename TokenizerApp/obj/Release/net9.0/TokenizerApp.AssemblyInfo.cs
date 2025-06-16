@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TokenizerApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a3ed6dccdfdacbfe061d09329887c4058263fcf4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+93952b660c103b697913ee08e1650ed303c0c48d")]
 [assembly: System.Reflection.AssemblyProductAttribute("TokenizerApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TokenizerApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

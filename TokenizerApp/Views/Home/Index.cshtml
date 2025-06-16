@@ -6,25 +6,33 @@
 <h2>Tokenize Text</h2>
 
 <form asp-action="Index" method="post">
-    <textarea asp-for="Text" rows="4" cols="50"></textarea><br />
-    <label>Model:</label>
-    <select asp-for="Model">
-        <option>bert</option>
-        <option>roberta</option>
-        <option>gpt2</option>
-        <option>llama</option>
-    </select><br />
-    <button type="submit">Tokenize</button>
+    <div class="mb-3">
+        <textarea asp-for="Text" rows="4" cols="50" class="form-control"></textarea>
+    </div>
+    <div class="tokenizer-form-group">
+        <div>
+            <label for="Model" class="form-label">Model:</label>
+            <select asp-for="Model" class="form-select" id="Model">
+                <option>BERT</option>
+                <option>RoBERTa</option>
+                <option>GPT2</option>
+                <option>LLaMA</option>
+                <option>T5</option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Tokenize</button>
+    </div>
 </form>
 
-@if (ViewBag.Tokens != null)
-{
-    <h3>Tokens:</h3>
-    <ul>
-    @foreach (var token in ViewBag.Tokens as List<string>)
+<div class="tokenizer-result">
+    @if (ViewBag.Tokens != null)
     {
-        <li>@token</li>
+    <label>Tokens:</label>
+    <div class="tokens-list">
+        @foreach (var token in ViewBag.Tokens as List<string>)
+            {
+        <span class="token-item">@token</span>
+            }
+    </div>
     }
-    </ul>
-}
-
+</div>
