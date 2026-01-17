@@ -2,7 +2,6 @@ using Microsoft.AspNetCore.Mvc;
 using TokenizerApp.Models;
 using System.Text;
 using System.Text.Json;
-using System.Net.Http;
 
 namespace TokenizerApp.Controllers;
 

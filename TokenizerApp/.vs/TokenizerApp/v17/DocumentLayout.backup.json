@@ -1,30 +1,54 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp\\",
+  "WorkspaceRootPath": "C:\\Users\\Julia\\Documents\\GitHub\\Tokenization-Visualizer\\TokenizerApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp\\TokenizerApp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TokenizerApp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{23451664-B27A-A4EC-12F2-29F48CA73245}|TokenizerApp.csproj|c:\\users\\julia\\documents\\github\\tokenization-visualizer\\tokenizerapp\\views\\home\\abouttokenization.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{23451664-B27A-A4EC-12F2-29F48CA73245}|TokenizerApp.csproj|solutionrelative:views\\home\\abouttokenization.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp\\TokenizerApp.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TokenizerApp.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{23451664-B27A-A4EC-12F2-29F48CA73245}|TokenizerApp.csproj|c:\\users\\julia\\documents\\github\\tokenization-visualizer\\tokenizerapp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23451664-B27A-A4EC-12F2-29F48CA73245}|TokenizerApp.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{23451664-B27A-A4EC-12F2-29F48CA73245}|TokenizerApp.csproj|c:\\users\\julia\\documents\\github\\tokenization-visualizer\\tokenizerapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{23451664-B27A-A4EC-12F2-29F48CA73245}|TokenizerApp.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp\\Models\\TokenRequest.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\TokenRequest.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{23451664-B27A-A4EC-12F2-29F48CA73245}|TokenizerApp.csproj|c:\\users\\julia\\documents\\github\\tokenization-visualizer\\tokenizerapp\\controllers\\tokenizecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23451664-B27A-A4EC-12F2-29F48CA73245}|TokenizerApp.csproj|solutionrelative:controllers\\tokenizecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{23451664-B27A-A4EC-12F2-29F48CA73245}|TokenizerApp.csproj|c:\\users\\julia\\documents\\github\\tokenization-visualizer\\tokenizerapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23451664-B27A-A4EC-12F2-29F48CA73245}|TokenizerApp.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp\\Views\\Home\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\Home\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{23451664-B27A-A4EC-12F2-29F48CA73245}|TokenizerApp.csproj|c:\\users\\julia\\documents\\github\\tokenization-visualizer\\tokenizerapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23451664-B27A-A4EC-12F2-29F48CA73245}|TokenizerApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23451664-B27A-A4EC-12F2-29F48CA73245}|TokenizerApp.csproj|c:\\users\\julia\\documents\\github\\tokenization-visualizer\\tokenizerapp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{23451664-B27A-A4EC-12F2-29F48CA73245}|TokenizerApp.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23451664-B27A-A4EC-12F2-29F48CA73245}|TokenizerApp.csproj|c:\\users\\julia\\documents\\github\\tokenization-visualizer\\tokenizerapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{23451664-B27A-A4EC-12F2-29F48CA73245}|TokenizerApp.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23451664-B27A-A4EC-12F2-29F48CA73245}|TokenizerApp.csproj|c:\\users\\julia\\documents\\github\\tokenization-visualizer\\tokenizerapp\\models\\tokenrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23451664-B27A-A4EC-12F2-29F48CA73245}|TokenizerApp.csproj|solutionrelative:models\\tokenrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23451664-B27A-A4EC-12F2-29F48CA73245}|TokenizerApp.csproj|c:\\users\\julia\\documents\\github\\tokenization-visualizer\\tokenizerapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{23451664-B27A-A4EC-12F2-29F48CA73245}|TokenizerApp.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23451664-B27A-A4EC-12F2-29F48CA73245}|TokenizerApp.csproj|c:\\users\\julia\\documents\\github\\tokenization-visualizer\\tokenizerapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{23451664-B27A-A4EC-12F2-29F48CA73245}|TokenizerApp.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23451664-B27A-A4EC-12F2-29F48CA73245}|TokenizerApp.csproj|c:\\users\\julia\\documents\\github\\tokenization-visualizer\\tokenizerapp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{23451664-B27A-A4EC-12F2-29F48CA73245}|TokenizerApp.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,82 +58,199 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 12,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:17:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:18:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:19:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:20:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:21:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:22:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TokenizerApp.csproj.user",
-              "DocumentMoniker": "C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp\\TokenizerApp.csproj.user",
-              "RelativeDocumentMoniker": "TokenizerApp.csproj.user",
-              "ToolTip": "C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp\\TokenizerApp.csproj.user",
-              "RelativeToolTip": "TokenizerApp.csproj.user",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Julia\\Documents\\GitHub\\Tokenization-Visualizer\\TokenizerApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Julia\\Documents\\GitHub\\Tokenization-Visualizer\\TokenizerApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T15:36:04.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Julia\\Documents\\GitHub\\Tokenization-Visualizer\\TokenizerApp\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Julia\\Documents\\GitHub\\Tokenization-Visualizer\\TokenizerApp\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
-              "WhenOpened": "2025-05-27T19:46:57.595Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-17T15:35:57.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Julia\\Documents\\GitHub\\Tokenization-Visualizer\\TokenizerApp\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Julia\\Documents\\GitHub\\Tokenization-Visualizer\\TokenizerApp\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-17T15:36:02.823Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TokenizerApp.csproj",
-              "DocumentMoniker": "C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp\\TokenizerApp.csproj",
-              "RelativeDocumentMoniker": "TokenizerApp.csproj",
-              "ToolTip": "C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp\\TokenizerApp.csproj",
-              "RelativeToolTip": "TokenizerApp.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-19T10:28:38.692Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T10:25:02.302Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "AboutTokenization.cshtml",
+              "DocumentMoniker": "C:\\Users\\Julia\\Documents\\GitHub\\Tokenization-Visualizer\\TokenizerApp\\Views\\Home\\AboutTokenization.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\AboutTokenization.cshtml",
+              "ToolTip": "C:\\Users\\Julia\\Documents\\GitHub\\Tokenization-Visualizer\\TokenizerApp\\Views\\Home\\AboutTokenization.cshtml",
+              "RelativeToolTip": "Views\\Home\\AboutTokenization.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-19T10:18:00.097Z"
+              "WhenOpened": "2026-01-17T15:35:22.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TokenRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Julia\\Documents\\GitHub\\Tokenization-Visualizer\\TokenizerApp\\Models\\TokenRequest.cs",
+              "RelativeDocumentMoniker": "Models\\TokenRequest.cs",
+              "ToolTip": "C:\\Users\\Julia\\Documents\\GitHub\\Tokenization-Visualizer\\TokenizerApp\\Models\\TokenRequest.cs",
+              "RelativeToolTip": "Models\\TokenRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T15:35:15.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Julia\\Documents\\GitHub\\Tokenization-Visualizer\\TokenizerApp\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Julia\\Documents\\GitHub\\Tokenization-Visualizer\\TokenizerApp\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T15:35:14.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TokenizeController.cs",
+              "DocumentMoniker": "C:\\Users\\Julia\\Documents\\GitHub\\Tokenization-Visualizer\\TokenizerApp\\Controllers\\TokenizeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TokenizeController.cs",
+              "ToolTip": "C:\\Users\\Julia\\Documents\\GitHub\\Tokenization-Visualizer\\TokenizerApp\\Controllers\\TokenizeController.cs",
+              "RelativeToolTip": "Controllers\\TokenizeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T15:13:36.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Julia\\Documents\\GitHub\\Tokenization-Visualizer\\TokenizerApp\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Julia\\Documents\\GitHub\\Tokenization-Visualizer\\TokenizerApp\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-16T22:40:26.258Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Julia\\Documents\\GitHub\\Tokenization-Visualizer\\TokenizerApp\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Julia\\Documents\\GitHub\\Tokenization-Visualizer\\TokenizerApp\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T16:05:59.527Z"
+              "WhenOpened": "2026-01-16T22:40:16.478Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TokenRequest.cs",
-              "DocumentMoniker": "C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp\\Models\\TokenRequest.cs",
-              "RelativeDocumentMoniker": "Models\\TokenRequest.cs",
-              "ToolTip": "C:\\Users\\Julia\\Desktop\\SEM 6\\Tokenization-Visualizer\\TokenizerApp\\Models\\TokenRequest.cs",
-              "RelativeToolTip": "Models\\TokenRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T16:05:40.679Z"
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Julia\\Documents\\GitHub\\Tokenization-Visualizer\\TokenizerApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Julia\\Documents\\GitHub\\Tokenization-Visualizer\\TokenizerApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAIwBEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-16T22:39:57.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Julia\\Documents\\GitHub\\Tokenization-Visualizer\\TokenizerApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Julia\\Documents\\GitHub\\Tokenization-Visualizer\\TokenizerApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAIwAUAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-16T22:40:58.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Julia\\Documents\\GitHub\\Tokenization-Visualizer\\TokenizerApp\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Julia\\Documents\\GitHub\\Tokenization-Visualizer\\TokenizerApp\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-17T14:19:38.507Z",
+              "EditorCaption": ""
             }
           ]
         }
