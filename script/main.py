@@ -1,43 +1,42 @@
-from fastapi import FastAPI
-from pydantic import BaseModel
+from functools import lru_cache
+
+from fastapi import FastAPI, HTTPException
+from pydantic import BaseModel, Field
 from transformers import AutoTokenizer
 
 app = FastAPI()
 
-tokenizers = {
-    "bert": AutoTokenizer.from_pretrained("bert-base-uncased"),
-    "gpt-2": AutoTokenizer.from_pretrained("gpt2"),
-    "xml-roberta": AutoTokenizer.from_pretrained("xlm-roberta-base"),
-    "llama": AutoTokenizer.from_pretrained("huggyllama/llama-7b"),
+MODEL_NAME_BY_KEY = {
+    "bert": "bert-base-uncased",
+    "gpt-2": "gpt2",
+    "xml-roberta": "xlm-roberta-base",
+    "llama": "huggyllama/llama-7b",
 }
 
 class TokenRequest(BaseModel):
-    Text: str
-    Model: str
+    text: str = Field(alias="Text")
+    model: str = Field(alias="Model")
+
+    class Config:
+        populate_by_name = True
+
+
+@lru_cache(maxsize=len(MODEL_NAME_BY_KEY))
+def get_tokenizer(model_key: str):
+    try:
+        return AutoTokenizer.from_pretrained(MODEL_NAME_BY_KEY[model_key])
+    except KeyError as exc:
+        raise HTTPException(status_code=404, detail=f"Model '{model_key}' not found.") from exc
+
 
 @app.post("/tokenize")
 def tokenize(req: TokenRequest):
-    model = req.Model.lower()
+    model_key = req.model.strip().lower()
 
-    # if model == "gpt-2": model = "gpt-2"
+    tokenizer = get_tokenizer(model_key)
 
-    if model not in tokenizers:
-        found = False
-        for key in tokenizers.keys():
-            if key.lower() == model:
-                model = key
-                found = True
-                break
-        if not found:
-            return {"Error": f"Model '{model}' not found."}
+    encoded = tokenizer(req.text, add_special_tokens=False)
+    ids = encoded["input_ids"]
+    tokens = tokenizer.convert_ids_to_tokens(ids)
 
-    tokenizer = tokenizers[model]
-
-    tokens = tokenizer.tokenize(req.Text)
-    ids = tokenizer.convert_tokens_to_ids(tokens)
-    tokens_list = [str(token) for token in tokens]
-
-    return {
-        "Tokens": tokens_list,
-        "Ids": ids
-    }
+    return {"Tokens": tokens, "Ids": ids}
