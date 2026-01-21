@@ -25,24 +25,29 @@ public class HomeController : Controller
     [HttpPost]
     public async Task<IActionResult> Index(TokenRequest request)
     {
-        // Get an HttpClient instance from the factory
         var httpClient = _httpClientFactory.CreateClient();
-
         var json = JsonSerializer.Serialize(request);
         var content = new StringContent(json, Encoding.UTF8, "application/json");
 
-        // Use the HttpClient instance
+        // Assuming API is running at localhost:8000
         var response = await httpClient.PostAsync("http://localhost:8000/tokenize", content);
+
         if (!response.IsSuccessStatusCode)
         {
-            ModelState.AddModelError("", "Error contacting tokenizer API.");
-            return View();
+            ModelState.AddModelError("", "API Error");
+            return View(request);
         }
 
         var resultJson = await response.Content.ReadAsStringAsync();
-        var result = JsonSerializer.Deserialize<TokenResponse>(resultJson);
 
+        // Case insensitive is safer
+        var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
+        var result = JsonSerializer.Deserialize<TokenResponse>(resultJson, options);
+
+        // Pass data to View
         ViewBag.Tokens = result?.Tokens;
+        ViewBag.TokenIds = result?.Ids;
+
         return View(request);
     }
 }

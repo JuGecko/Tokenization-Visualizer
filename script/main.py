@@ -18,11 +18,26 @@ class TokenRequest(BaseModel):
 @app.post("/tokenize")
 def tokenize(req: TokenRequest):
     model = req.Model.lower()
+
+    # if model == "gpt-2": model = "gpt-2"
+
     if model not in tokenizers:
-        return {"Error": "Nieznany model. Wybierz jeden z listy dostępnych modeli."}
+        found = False
+        for key in tokenizers.keys():
+            if key.lower() == model:
+                model = key
+                found = True
+                break
+        if not found:
+            return {"Error": f"Model '{model}' not found."}
 
     tokenizer = tokenizers[model]
+
     tokens = tokenizer.tokenize(req.Text)
-    # Ensure tokens are strings and use the correct property name
+    ids = tokenizer.convert_tokens_to_ids(tokens)
     tokens_list = [str(token) for token in tokens]
-    return {"Tokens": tokens_list}
+
+    return {
+        "Tokens": tokens_list,
+        "Ids": ids
+    }

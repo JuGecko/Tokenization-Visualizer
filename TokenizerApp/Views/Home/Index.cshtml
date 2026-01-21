@@ -1,37 +1,90 @@
 ﻿@model TokenizerApp.Models.TokenRequest
 @{
     ViewData["Title"] = "Wizualizator Tokenizacji";
+    
+    string[] tokenColors = new string[] 
+    { 
+        "#FFD700", // Gold
+        "#ADFF2F", // GreenYellow
+        "#00BFFF", // DeepSkyBlue
+        "#FF69B4", // HotPink
+        "#FFA07A", // LightSalmon
+        "#9370DB", // MediumPurple
+        "#87CEEB", // SkyBlue
+        "#F0E68C"  // Khaki
+    };
 }
 
-<h2>Tokenizuj tekst</h2>
+<style>
+    .token-display-container {
+        border: 1px solid #ced4da;
+        border-radius: 0.25rem;
+        padding: 15px;
+        background-color: #f8f9fa;
+        font-family: 'Consolas', 'Monaco', monospace;
+        font-size: 1.1rem;
+        line-height: 1.8;
+        word-wrap: break-word;
+    }
 
+    .colored-token {
+        padding: 2px 0;
+        margin: 0;
+        border-radius: 3px;
+        white-space: pre-wrap;
+        display: inline;
+        color: #333;
+        box-shadow: 0 0 0 1px rgba(255,255,255,0.2);
+    }
+</style>
+
+<h2>Tokenizuj tekst</h2>
 <form asp-action="Index" method="post">
     <div class="mb-3">
-        <textarea asp-for="Text" rows="4" cols="50" class="form-control"></textarea>
+        <textarea asp-for="Text" rows="4" class="form-control" placeholder="Wpisz tekst tutaj..."></textarea>
     </div>
-    <div class="tokenizer-form-group">
-        <div>
+    <div class="row align-items-end mb-3">
+        <div class="col-md-4">
             <label for="Model" class="form-label">Model:</label>
             <select asp-for="Model" class="form-select" id="Model">
-                <option>BERT</option>
-				<option>GPT-2</option>
-				<option>XML-RoBERTa</option>
-                <option>LLaMA</option>
+                <option value="bert">BERT</option>
+                <option value="gpt-2">GPT-2</option>
+                <option value="xml-roberta">XML-RoBERTa</option>
+                <option value="llama">LLaMA</option>
             </select>
         </div>
-        <button type="submit" class="btn btn-primary">Tokenizuj</button>
+        <div class="col-md-2">
+            <button type="submit" class="btn btn-primary w-100">Tokenizuj</button>
+        </div>
     </div>
 </form>
 
-<div class="tokenizer-result">
+<div class="tokenizer-result mt-4">
     @if (ViewBag.Tokens != null)
     {
-    <label>Tokeny:</label>
-    <div class="tokens-list">
-        @foreach (var token in ViewBag.Tokens as List<string>)
+        var tokens = ViewBag.Tokens as List<string>;
+        var ids = ViewBag.TokenIds as List<int>;
+
+        <!-- 1. The Colorful Token Display -->
+        <h5>Wizualizacja:</h5>
+        <div class="token-display-container mb-3">
+            @for (int i = 0; i < tokens.Count; i++)
             {
-        <span class="token-item">@token</span>
+                // Cycle through the colors using Modulo operator
+                string color = tokenColors[i % tokenColors.Length];
+                
+                <span class="colored-token" style="background-color: @color;" title="ID: @(ids != null && ids.Count > i ? ids[i].ToString() : "N/A")">@tokens[i]</span>
             }
-    </div>
+        </div>
+
+        <!-- 2. The IDs TextField -->
+        @if (ids != null && ids.Count > 0)
+        {
+            <h5>ID tokenów:</h5>
+            <div class="mb-3">
+                <textarea class="form-control" rows="4" readonly style="font-family: monospace; color: #555;">@string.Join(", ", ids)</textarea>
+                <p class="font-sizef mt-2">Całkowita liczba tokenów:  @tokens.Count</p>
+            </div>
+        }
     }
 </div>
